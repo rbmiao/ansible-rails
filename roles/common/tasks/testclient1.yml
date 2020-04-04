@@ -1,0 +1,9 @@
+---
+- name: Test client1 connection
+  hosts: client1
+  become: true
+
+  tasks:
+    - name: Display the config
+      debug:
+        msg: "The hostname is Daniel Miao"

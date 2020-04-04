@@ -1,0 +1,8 @@
+[ansible]
+ansible-server ansible_ssh_host=192.0.2.103
+
+[client1_group]
+client1 ansible_ssh_host=192.0.2.104
+
+[client2_group]
+client2 ansible_ssh_host=192.0.2.105

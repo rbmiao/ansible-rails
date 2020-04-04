@@ -1,0 +1,9 @@
+---
+- name: Demo
+  hosts: all
+  gather_facts: False
+  become: False
+ 
+  tasks:
+    - debug:
+        msg: "Hello this is daniel miao"
